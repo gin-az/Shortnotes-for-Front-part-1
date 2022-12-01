@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flex grid layouts.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex grid layouts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/img/Align-items.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/upload/img/Align-items.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/img/Align-items2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/upload/img/Align-items2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/img/Justify-content.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/upload/img/Justify-content.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/testp" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -31,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669788366870</updated>
-      <workItem from="1669788367969" duration="11184000" />
+      <workItem from="1669788367969" duration="11537000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -47,7 +50,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669791425707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Flex.">
+      <created>1669923286625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669923286625</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Flex.">
+      <created>1669923410949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669923410949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,16 +73,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="пару слов про Flex." />
-    <option name="LAST_COMMIT_MESSAGE" value="пару слов про Flex." />
+    <MESSAGE value="Flex." />
+    <option name="LAST_COMMIT_MESSAGE" value="Flex." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2505" y="107" key="CommitChangelistDialog2" timestamp="1669791424943">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1669923410040">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669923410040" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="2472" y="240" key="Vcs.Push.Dialog.v2" timestamp="1669791428714">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1669923290828">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669923290828" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
   </component>
 </project>
