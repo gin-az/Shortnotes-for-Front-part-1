@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/upload/img/Align-items.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/upload/img/Align-items.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/img/Align-items2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/upload/img/Align-items2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/img/Justify-content.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/upload/img/Justify-content.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex grid layouts.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex grid layouts.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669788366870</updated>
-      <workItem from="1669788367969" duration="11537000" />
+      <workItem from="1669788367969" duration="13118000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -64,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669923410949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rename png">
+      <created>1669923635318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669923635318</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rename">
+      <created>1669923726188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669923726188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,18 +87,20 @@
     <MESSAGE value="start" />
     <MESSAGE value="пару слов про Flex." />
     <MESSAGE value="Flex." />
-    <option name="LAST_COMMIT_MESSAGE" value="Flex." />
+    <MESSAGE value="rename png" />
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1669923410040">
+    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1669923725427">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669923410040" />
+    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669923725427" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1669923290828">
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1669923728184">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669923290828" />
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669923728184" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
   </component>
 </project>
