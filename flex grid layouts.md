@@ -191,9 +191,116 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
 
 ![grid alignment](./upload/img/grid_alignment.png)
 
+- Выравнивание конкретного элемента контейнера:
+
+По вертикали: __`align-self`__: ___`stretch`___(default), ___`start`___, ___`end`___ , ___`center`___.
+
+По горизонтали: __`justify-self`__: ___`stretch`___(default), ___`start`___, ___`end`___ , ___`center`___.
+
+<pre>
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: stretch;
+}
+
+.grid-item1 {
+    align-self: start;
+}
+</pre>
+![grid align-self](./upload/img/grid_align-self.png)
 
 
+- Выравнивание элементов контейнера:
 
+По вертикали: __`align-items`__: ___`stretch`___(default), ___`start`___, ___`end`___ , ___`center`___.
+
+По горизонтали: __`justify-items`__: ___`stretch`___(default), ___`start`___, ___`end`___ , ___`center`___.
+
+<pre>
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    align-items: center;
+    justify-items: center;
+}
+</pre>  
+![grid align-items](./upload/img/grid_align-items.png)
+
+
+- Выравнивание Grid-контейнера:
+
+По горизонтали: __`justify-content`__: ___`start(def) / end / center / stretch / space-around / space-between  / space-evenly`___.
+
+По вертикали: __`align-content`__: ___`start(def) / end / center / stretch / space-around / space-between  / space-evenly`___.
+
+![grid justify-content](./upload/img/grid_justify-content.png)
+
+### Управление порядком элементов внутри grid-контейнера
+Элементы размещаются по порядку. Если элементу не хватает места, он переходит в следущий ряд (строку). 
+`Grid` позволяет взять алгоритм размещения под свой контроль. 
+
+За алгоритм размещения отвечает свойство __`Grid-auto-flow`__: ___`row (default) / column / … dense`___.
+
+Пример 1
+<pre>
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: column;
+    
+}
+</pre> 
+![grid-auto-flow](./upload/img/grid_auto-flow.png)
+
+Пример 2. Если увеличить ширину у 2 и 3 элемента, то возникнут пустоты, т.к. элементы не влезают в 1 строку: 
+![grid-auto-flow без dense](./upload/img/grid_auto-flow2.png)
+
+При использовании значения ___`dense`___ в пустое пространство ‘уйдёт’ ближайший последующий пододящий по размеру элемент (4). 
+
+>___`Dense`___ в `Grid` является __заполнителем свободного пространства__.
+
+Пример 3.
+![grid-auto-flow dense](./upload/img/grid_auto-flow-dense.png)
+
+---
+
+- Order
+
+У элементов есть свойство __`order`__: ___`0`___ (по-умолчанию). 
+
+Изменив свойство у конкретного элемента можно перемещать его в начало или конец.
+![grid order](./upload/img/grid_order.png)
+
+
+### Вложенность в Grid
+![grid attachment](./upload/img/grid_attachment.png)
+
+Возможность вкладывать контейнеры друг в друга позволяет создавать более сложные структуры.
+
+### Гибкость GRID-элементов при изменении размеров экрана. 
+___`auto-fill`___  - вместо того, чтобы указывать количество колонок и сколько раз им повторяться, мы просто можем сказать браузеру, чтобы он уместил как можно больше колонок с учетом указанной длины.
+___`auto-fill`___, как бы говорит “я автоматически заполню строку таким количеством колонок, как это возможно с учетом заданной ширины”. 
+
+___`auto-fill`___ используется в связке с repeat() таким образом:
+
+<pre>grid-template-columns: repeat(auto-fill, 100px);</pre>
+
+- minxmax()
+ 
+___`minxmax()`___ - функция в CSS, которую очень удобно использовать в связке с auto-fill. Она позволяет вам указывать минимальное и максимальное значение одновременно.
+
+
+- auto-fit. 
+
+если элементы в строку и выставить максимальную ширину колонок на 1fr, то браузер разделит оставшееся место поровну между ними, __НЕ ДОБАВЛЯЯ ПУСТЫХ ЭЛЕМЕНТОВ__.
+<pre>
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+</pre>
 
 
 
