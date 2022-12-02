@@ -15,7 +15,7 @@
 }</pre>
 
 Свойства Flexbox:
-![Properties](./upload/img/flex_properties.png)
+![Properties](./upload/img/Flex_grid/flex_properties.png)
 
 | Свойства контейнера | Назначение |
 | ------ | ------ |
@@ -42,7 +42,7 @@ Order | определяет порядок элемента. |
 
 Существует 2 оси. По умолчанию  их направление выглядит так:
 
-![Axis](./upload/img/Axis.png)
+![Axis](./upload/img/Flex_grid/Axis.png)
 
 За расположение основной оси отвечает свойство __`Flex-direction:`__ *`row`*(default) | *`row-reverse`* (справа-налево) | *`column`* | *`column-reverse`*.
 >\* __`Min-height:`__ *`100vh`* - *на всю высоту экрана*
@@ -60,7 +60,7 @@ __`Gap:`__ *`10px;`* - определяет отступы между элеме
 
 ---
 ### Позиционирование ###
-![alignment](./upload/img/Alignment.png)
+![alignment](./upload/img/Flex_grid/Alignment.png)
 
 3 свойства для выравнивания контейнера и 1 свойство для выравнивания элементов. 
 Применение того или иного свойства зависит от контекста выравнивания.
@@ -73,21 +73,21 @@ __`Gap:`__ *`10px;`* - определяет отступы между элеме
 
 Свойство __`align-self`__ служит для индивидуального выравнивания элемента внутри `flex-контейнера`.
 
-![justify-content](./upload/img/Justify-content.png)
+![justify-content](./upload/img/Flex_grid/Justify-content.png)
 > Если основная ось вертикальная, то необходимо задать высоту.
 
-![Align-items](./upload/img/Align-items.png)
-![Align-items](./upload/img/Align-items2.png)
+![Align-items](./upload/img/Flex_grid/Align-items.png)
+![Align-items](./upload/img/Flex_grid/Align-items2.png)
 
-![Align-content](./upload/img/Align-content.png)
+![Align-content](./upload/img/Flex_grid/Align-content.png)
 
-![Align-self](./upload/img/Align-self.png)
+![Align-self](./upload/img/Flex_grid/Align-self.png)
 
 ---
 ### Изменение размеров ###
 
 ### 1)	Использование % ###
-![Change_size_percent](./upload/img/Change_size_percent.png)
+![Change_size_percent](./upload/img/Flex_grid/Change_size_percent.png)
 
 ### 2)	Пропорции ###
 Механизмы распределения размера:
@@ -95,20 +95,20 @@ __`Gap:`__ *`10px;`* - определяет отступы между элеме
 __`Flex-grow`__ – определяет возможность увеличения размера элемента в случае необходимости.
 
 Пример 1 – общий размер возможного расширения для всех элементов. Равные пропорции для распределения свободного пространства.
-![Flexgrow](./upload/img/Change_size_flexgrow.png)
+![Flexgrow](./upload/img/Flex_grid/Change_size_flexgrow.png)
 
 Пример 2. Здесь 1-ый и 3-ий элементы имеют пропорцию 1, а второй – 2.
-![Flexgrow](./upload/img/Change_size_flexgrow2.png)
+![Flexgrow](./upload/img/Flex_grid/Change_size_flexgrow2.png)
 
 __`Flex-shrink`__ - Сколько свободного пространства готов отдать (сжатие) элемент, если соседним элементам не будет хватать места.
 
-![Flexshrink](./upload/img/Change_size_flexshrink.png)
+![Flexshrink](./upload/img/Flex_grid/Change_size_flexshrink.png)
 
 Flex-basis – определяет размер элемента до разделения пропорции свободного пространства. При горизонтальном расположении гориз-ой оси св-во задает ширину, а при __`flex-direction:`__ ___`column`___ – высоту (___px, %, rem___ и т.д.). По умолчанию = `auto`.
 
 Для __элементов__ свойство __`flex`__ объединяет = __`flex-grow, flex-shrink, flex-basis`__.
 
-![items Flex](./upload/img/items_flex.png)
+![items Flex](./upload/img/Flex_grid/items_flex.png)
 
 ### Задание порядка элементов ###
 Свойство __`order`__ применяется к элементу. По умолчанию все элементы __`order: 0;`__
@@ -136,14 +136,14 @@ __`fr`__ - коэф-т пропорциональности (`фракция`). 
 }
 </pre>
 
-![grid template columns](./upload/img/grid_temp_columns.png)
+![grid template columns](./upload/img/Flex_grid/grid_temp_columns.png)
 
 __`Grid-gap (Grid-column-gap, Grid-row-gap)`__ - Свойство для отступа между элементами.
 
 В отличии от `Flexbox`, `CSS Grid` делит видимую область на ___`колонны`___ и ___`строки`___.
 Для определения строк используется свойство __`grid-template-rows`__.
 
-![grid](./upload/img/grid_template_columns_rows.png)
+![grid](./upload/img/Flex_grid/grid_template_columns_rows.png)
 
 Для управления элемента в колоннах используется __`grid-column-start`__, __`grid-column-end`__, а для строк соответственно __`grid-row-start`__, __`grid-row-end`__. 
 В сокращенном виде эти свойства записываются как: 
@@ -160,12 +160,12 @@ __`Grid-column`__ и __`Grid-row`__ могут быть упрощены в ви
 <pre>grid-area: 1 / 3 / 4 / 4</pre>
 __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/` ___`4`___ (grid-row-end) `/` ___`4`___ (grid-column-end).
 
-![grid-area](./upload/img/grid-area.png)
+![grid-area](./upload/img/Flex_grid/grid-area.png)
 
 ### Именование grid-линий, создание сетки, позиционирование элементов ###
 В свойствах __`Grid-template-rows`__, __`grid-template-columns`__ имена указываются, как `[name]` (в квадратных скобках).
 
-![grid line name](./upload/img/grid_line_name.png)
+![grid line name](./upload/img/Flex_grid/grid_line_name.png)
 
 > Использование ключевого слова ___`span`___. 
 
@@ -178,7 +178,7 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
     }
 </pre>
 
-![span](./upload/img/grid_span.png)
+![span](./upload/img/Flex_grid/grid_span.png)
 
 ###	Выравнивание grid-элементов (позиционирование контента внутри элементов). ###
 К Grid-контейнеру могут быть применены __`Align-items`__, __`justify-items`__. К элементу - __`align-self`__, __`jusify-self`__.
@@ -189,7 +189,7 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
 | Grid-контейнер | Align-items, Justify-items. |
 | Grid-элемент | Align-self, Justify-self. |
 
-![grid alignment](./upload/img/grid_alignment.png)
+![grid alignment](./upload/img/Flex_grid/grid_alignment.png)
 
 - Выравнивание конкретного элемента контейнера:
 
@@ -208,7 +208,7 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
     align-self: start;
 }
 </pre>
-![grid align-self](./upload/img/grid_align-self.png)
+![grid align-self](./upload/img/Flex_grid/grid_align-self.png)
 
 
 - Выравнивание элементов контейнера:
@@ -226,7 +226,7 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
     justify-items: center;
 }
 </pre>  
-![grid align-items](./upload/img/grid_align-items.png)
+![grid align-items](./upload/img/Flex_grid/grid_align-items.png)
 
 
 - Выравнивание Grid-контейнера:
@@ -235,7 +235,7 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
 
 По вертикали: __`align-content`__: ___`start(def) / end / center / stretch / space-around / space-between  / space-evenly`___.
 
-![grid justify-content](./upload/img/grid_justify-content.png)
+![grid justify-content](./upload/img/Flex_grid/grid_justify-content.png)
 
 ### Управление порядком элементов внутри grid-контейнера
 Элементы размещаются по порядку. Если элементу не хватает места, он переходит в следущий ряд (строку). 
@@ -255,17 +255,17 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
     
 }
 </pre> 
-![grid-auto-flow](./upload/img/grid_auto-flow.png)
+![grid-auto-flow](./upload/img/Flex_grid/grid_auto-flow.png)
 
 Пример 2. Если увеличить ширину у 2 и 3 элемента, то возникнут пустоты, т.к. элементы не влезают в 1 строку: 
-![grid-auto-flow без dense](./upload/img/grid_auto-flow2.png)
+![grid-auto-flow без dense](./upload/img/Flex_grid/grid_auto-flow2.png)
 
 При использовании значения ___`dense`___ в пустое пространство ‘уйдёт’ ближайший последующий пододящий по размеру элемент (4). 
 
 >___`Dense`___ в `Grid` является __заполнителем свободного пространства__.
 
 Пример 3.
-![grid-auto-flow dense](./upload/img/grid_auto-flow-dense.png)
+![grid-auto-flow dense](./upload/img/Flex_grid/grid_auto-flow-dense.png)
 
 ---
 
@@ -274,11 +274,11 @@ __`grid-area:`__ ___`1`___ (grid-row-start) `/` ___`3`___ (grid-column-start) `/
 У элементов есть свойство __`order`__: ___`0`___ (по-умолчанию). 
 
 Изменив свойство у конкретного элемента можно перемещать его в начало или конец.
-![grid order](./upload/img/grid_order.png)
+![grid order](./upload/img/Flex_grid/grid_order.png)
 
 
 ### Вложенность в Grid
-![grid attachment](./upload/img/grid_attachment.png)
+![grid attachment](./upload/img/Flex_grid/grid_attachment.png)
 
 Возможность вкладывать контейнеры друг в друга позволяет создавать более сложные структуры.
 
