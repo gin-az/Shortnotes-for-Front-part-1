@@ -306,7 +306,7 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 
 
 
-###Источники
+### Источники ###
 https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout
 
 https://youtu.be/XXlw7TUxRVY
