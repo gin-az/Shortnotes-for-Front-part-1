@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux toolkit.md" beforeDir="false" afterPath="$PROJECT_DIR$/redux toolkit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex grid layouts.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex grid layouts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux toolkit.md" beforeDir="false" afterPath="$PROJECT_DIR$/redux toolkit &amp; RTK Query.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669788366870</updated>
       <workItem from="1669788367969" duration="30115000" />
-      <workItem from="1669996709433" duration="20142000" />
+      <workItem from="1669996709433" duration="20444000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669997993482</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="redux toolkit, rtk query.">
+      <created>1670193968510</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670193968510</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,18 +164,19 @@
     <MESSAGE value="grid autofit" />
     <MESSAGE value="grid final" />
     <MESSAGE value="redux toolkit start" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux toolkit start" />
+    <MESSAGE value="redux toolkit, rtk query." />
+    <option name="LAST_COMMIT_MESSAGE" value="redux toolkit, rtk query." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1669997992697">
+    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1670193967875">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669997992697" />
+    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670193967875" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1669997997046">
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1670193971286">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1669997997046" />
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670193971286" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
   </component>
 </project>

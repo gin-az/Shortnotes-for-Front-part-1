@@ -319,8 +319,11 @@ https://www.w3schools.com/css/css3_flexbox.asp
 
 ---
 https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout
+
 https://hcdev.ru/grid/
+
 https://habr.com/ru/company/macloud/blog/564182/
+
 https://youtu.be/yTLqfUxwdDk - Grid.Полный курс
 
 
