@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flex grid layouts.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex grid layouts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux toolkit.md" beforeDir="false" afterPath="$PROJECT_DIR$/redux toolkit &amp; RTK Query.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669788366870</updated>
       <workItem from="1669788367969" duration="30115000" />
-      <workItem from="1669996709433" duration="20444000" />
+      <workItem from="1669996709433" duration="24664000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -147,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670193968510</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix.">
+      <created>1670194143684</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670194143685</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix.">
+      <created>1670194192727</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670194192727</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,18 +179,23 @@
     <MESSAGE value="grid final" />
     <MESSAGE value="redux toolkit start" />
     <MESSAGE value="redux toolkit, rtk query." />
-    <option name="LAST_COMMIT_MESSAGE" value="redux toolkit, rtk query." />
+    <MESSAGE value="fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1670193967875">
+    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1670194192059">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670193967875" />
+    <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670194192059" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1670193971286">
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1670194146058">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670193971286" />
+    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670194146058" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
+    <state x="-1359" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670266025631">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1359" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670266025631" />
   </component>
 </project>
