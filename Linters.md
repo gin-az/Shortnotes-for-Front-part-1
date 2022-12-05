@@ -1,4 +1,4 @@
-## ESLint и Prettier ##
+## ESLint ##
 
 Чтобы увидеть ошибки до запуска кода, используется инструмент, который называется `линтер`. 
 Для поиска ошибок применяется статический анализ и используются особые правила.
@@ -39,28 +39,28 @@ npx eslint --init
 ![use ESLint](./upload/img/Linters/image1.png)
 
 Укажем, что будут использованы модули JavaScript:
-![use ESLint](./upload/img/Linters/image2.png)
+![JS Modules](./upload/img/Linters/image2.png)
 
 Выбираем по необходимости `framework`: 
-![use ESLint](./upload/img/Linters/image3.png)
+![Framework](./upload/img/Linters/image3.png)
 
 Отмечаем, используем / не используем TypeScript
-![use ESLint](./upload/img/Linters/image4.png)
+![TS](./upload/img/Linters/image4.png)
 
-код будет выполняться в браузере:
-![use ESLint](./upload/img/Linters/image5.png)
+Код будет выполняться в браузере:
+![code browser](./upload/img/Linters/image5.png)
 
 Указываем, что хотим использовать инструкцию по популярным стилям:
-![use ESLint](./upload/img/Linters/image6.png)
+![poopular style](./upload/img/Linters/image6.png)
 
 Укажем, что будем применять инструкции по стилю и выберем Airbnb:
-![use ESLint](./upload/img/Linters/image7.png)
+![ESLint Airbnb](./upload/img/Linters/image7.png)
 
-файл конфигурации будет создан в формате JSON:
-![use ESLint](./upload/img/Linters/image8.png)
+Файл конфигурации будет создан в формате JSON:
+![Format](./upload/img/Linters/image8.png)
 
 Установим зависимости:
-![use ESLint](./upload/img/Linters/image9.png)
+![dep](./upload/img/Linters/image9.png)
 
 В результате в каталоге проекта будет создан файл `.eslintrc.json`.
 
@@ -81,6 +81,129 @@ module.exports = {
 };
 ```
 
+Свои правила при необходимости следует добавлять в раздел `rules` файла `.eslintrc.json`. 
+> Эти правила в случае пересечения будут иметь наивысший приоритет.
+
+
+### Пример добавления своих правил ###
+```
+'rules': {
+        'indent': [
+            'error',
+            4
+        ],
+        'linebreak-style': [
+            'error',
+            'unix'
+        ],
+        'quotes': [
+            'error',
+            'single'
+        ],
+        'semi': [
+            'error',
+            'always'
+ ]
+    }
+```
+
+Слово `indent` — это имя правила. 
+Первый элемент в списке обозначает уровень ошибки и может принимать следующие значения:
+- `off` или `0` — выключить правило;
+- `warn` или `1` — включить правило как предупреждение (не влияет на код выхода);
+- `error` или `2` — включить правило как ошибку (с кодом выхода 1).
+Второй элемент в этом случае означает __количество пробелов__. Второй аргумент зависит от правила.
+
+Приведенные выше правила указывают, 
+что следует ___использовать отступ в четыре пробела___, 
+___завершение строк в стиле UNIX___, 
+___одинарные кавычки___ 
+и ___не пропускать точку с запятой___.
+
+> Полный список правил ESLint можно просмотреть по этой [ссылке](https://eslint.org/docs/latest/rules/).
+
+### Отключение проверки ### 
+~~Когда нужно быстро что-то написать и не обязательно правильно.~~
+
+Для __отключения отдельной строки__ ее нужно завершить комментарием:
+```
+// eslint-disable-line
+```
+
+Чтобы отключить проверку для __нескольких__ строк, перед ними следует вставить комментарий 
+```/* eslint-disable */```, а после — ```/* eslint-enable */```.
+
+
+Также можно __отключить одно или несколько конкретных правил__. 
+Для этого в комментарии их перечисляют через запятую:
+
+```
+/* eslint-disable semi, quotes */
+```
+
+### Заключение ###
+`ESLint` — эффективный инструмент, который можно настраивать и расширять в соответствии с потребностями разных проектов.
+
+ESLint продолжает активно развиваться и интегрируется со многими средами разрабоки.
+
+Он играет важную роль, поскольку его обширные возможности дают разработчикам возможность сконцентрировать усилия на разработке, 
+а не на поиске ошибок и несоответствий стилю.
+
+## PRETTIER ##
+
+[Преттир](https://prettier.io/) - это помощник по части оформления кода. 
+Можно писать с пробелами перед именем свойства, кавычками, запятыми в последней строке и тд тп - преттир, 
+настроенный на сохранение или на пре-коммит хук - "перетрясет" ваши файлы и оформит их в соответствии с настройками, 
+которых у него минимум. 
+
+Для добавления в проект запускаем в терминале: 
+```
+npm install --save-dev --save-exact prettier
+или
+yarn add --dev --exact prettier
+```
+
+После установки переходим в файл `.eslintrc.JSON` и внутри `«extends»` добавляем «prettier» плагин.
+
+![add prettier](./upload/img/Linters/prettier_add.png)
+
+Правила задаются в конфигурационном файле `.prettierrc`. Пример:
+{
+  "useTabs": false, // не использовать табы 
+  "printWidth": 80, // длина строки - 80
+  "tabWidth": 4, // длина "таба" - 4 пробела
+  "singleQuote": true, // использовать одинарные кавычки - да
+  "trailingComma": "es5", // запятая в последней строке - да
+  "jsxBracketSameLine": false, // закрывающийся jsx в этой же строке
+  "semi": false // точка с запятой - нет
+}
+
+В качестве среды разработки я использую WebStorm. 
+По умолчанию для автоматического правки кода по правилам `Prettier` следует использовать `Ctrl+Alt+L`.
+Для удобства IDE позволяет выполнять автоматические правки при сохранении файла.
+![prettier_onSave](./upload/img/Linters/prettier_onSave.png)
+
+
+## STYLELINT ##
+
+### Установка ###
+
+```
+npm install --save-dev stylelint stylelint-config-standard
+```
+
+Далее необходимо создайть `.stylelintrc.json` файл конфигурации в корне проекта со следующим содержимым:
+```
+{
+  "extends": "stylelint-config-standard"
+}
+```
+
+Реальный пример конфига:
+
+![stylelint](./upload/img/Linters/stylelint.png)
+
+Со всеми возможными правилами можно ознакомиться [здесь](https://stylelint.io/user-guide/rules)
 
 ###  Источники ###
 https://eslint.org/
@@ -88,4 +211,18 @@ https://eslint.org/
 https://max-frontend.gitbook.io/redux-course-ru-v2/chapter1/eslint-i-prettier
 
 [Сложно о простом: ESLint в команде](https://habr.com/ru/post/322550/)
+
+https://youtu.be/bfyI9yl3qfE
+
+___
+https://www.npmjs.com/package/prettier
+
+https://prettier.io/
+
+___
+
+https://habr.com/ru/post/301594/
+
+https://stylelint.io/
+
 
