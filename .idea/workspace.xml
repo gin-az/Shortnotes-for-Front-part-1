@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS Modules.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic patterns.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sintax JS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669788366870</updated>
       <workItem from="1669788367969" duration="30115000" />
-      <workItem from="1669996709433" duration="41822000" />
+      <workItem from="1669996709433" duration="47783000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670272208283</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sass">
+      <created>1670353249211</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670353249211</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,22 +204,25 @@
     <MESSAGE value="fix." />
     <MESSAGE value="Linters start" />
     <MESSAGE value="prettier &amp; stylelint" />
-    <option name="LAST_COMMIT_MESSAGE" value="prettier &amp; stylelint" />
+    <MESSAGE value="sass" />
+    <option name="LAST_COMMIT_MESSAGE" value="sass" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2630" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1670326294778">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2630" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670326294778" />
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1670272207561">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1670353248313">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670272207561" />
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670353248313" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1670272210578">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="368" y="121" key="Vcs.Push.Dialog.v2" timestamp="1670353251384">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670272210578" />
+    <state x="368" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670353251384" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
     <state x="-1359" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670266025631">
       <screen x="-1920" y="0" width="1920" height="1040" />
