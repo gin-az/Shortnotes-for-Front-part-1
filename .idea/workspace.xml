@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shortnotes(part1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shortnotes(part1).iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax JS.md" beforeDir="false" afterPath="$PROJECT_DIR$/syntax JS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shortnotes(part2)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -47,7 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669788366870</updated>
       <workItem from="1669788367969" duration="30115000" />
-      <workItem from="1669996709433" duration="53540000" />
+      <workItem from="1669996709433" duration="53787000" />
+      <workItem from="1670446670734" duration="20927000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670359855509</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="события">
+      <created>1670446623028</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670446623028</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,28 +221,38 @@
     <MESSAGE value="prettier &amp; stylelint" />
     <MESSAGE value="sass" />
     <MESSAGE value="syntax js" />
-    <option name="LAST_COMMIT_MESSAGE" value="syntax js" />
+    <MESSAGE value="события" />
+    <option name="LAST_COMMIT_MESSAGE" value="события" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2630" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1670326294778">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2630" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670326294778" />
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1670359854762">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1670446622158">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670359854762" />
-    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670353248313" />
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670446622158" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1670359857481">
+    <state x="-1288" y="147" key="FileChooserDialogImpl" timestamp="1670446677539">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1288" y="147" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670446677539" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670446638565" />
+    <state x="368" y="121" key="Vcs.Push.Dialog.v2" timestamp="1670446625247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
     <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670359857481" />
-    <state x="368" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670353251384" />
+    <state x="368" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670446625247" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
     <state x="-1359" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670266025631">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1359" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670266025631" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1670451333885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670451333885" />
   </component>
 </project>
