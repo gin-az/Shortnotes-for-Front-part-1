@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faf574e1-2b66-4cae-88d4-e01ff554904d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../shortnotes(part2)/solid, TS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux toolkit &amp; RTK Query.md" beforeDir="false" afterPath="$PROJECT_DIR$/redux toolkit &amp; RTK Query.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/syntax JS.md" beforeDir="false" afterPath="$PROJECT_DIR$/syntax JS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shortnotes(part2)/Hoc, pure, lify_cycle.md" beforeDir="false" afterPath="$PROJECT_DIR$/../shortnotes(part2)/Hoc, pure, lify_cycle.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../shortnotes(part2)" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -55,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gpn_partner_ui/src/src/components/CommentsPopover/CommentsPopover.tsx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gpn_partner_ui" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -63,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AGindullin\WebstormProjects\shortnotes(part2)" />
       <recent name="C:\Users\AGindullin\WebstormProjects\shortnotes(part1)\upload\img\Flex_grid" />
     </key>
   </component>
@@ -77,7 +80,8 @@
       <workItem from="1669788367969" duration="30115000" />
       <workItem from="1669996709433" duration="53787000" />
       <workItem from="1670446670734" duration="26518000" />
-      <workItem from="1670578567808" duration="15039000" />
+      <workItem from="1670578567808" duration="18539000" />
+      <workItem from="1671354552794" duration="2235000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1669788577102</created>
@@ -247,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670837735756</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=".">
+      <created>1671025046606</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671025046607</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,22 +302,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2630" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670326294778" />
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1670837734937">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1671025044848">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1335" y="107" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670837734937" />
-    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670446622158" />
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1671025044848" />
     <state x="2505" y="107" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791424943" />
-    <state x="-1288" y="147" key="FileChooserDialogImpl" timestamp="1670838023806">
+    <state x="-1288" y="147" width="440" height="824" key="FileChooserDialogImpl" timestamp="1671296464363">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1288" y="147" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670838023806" />
+    <state x="-1288" y="147" width="440" height="824" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1671296464363" />
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670446638565" />
-    <state x="-1368" y="240" key="Vcs.Push.Dialog.v2" timestamp="1670834219428">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="368" y="121" key="Vcs.Push.Dialog.v2" timestamp="1671025074635">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1368" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1670834219428" />
-    <state x="368" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1670446625247" />
+    <state x="368" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1671025074635" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1669791428714" />
     <state x="374" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1670758608346">
       <screen x="0" y="0" width="1280" height="680" />
